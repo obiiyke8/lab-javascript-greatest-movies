@@ -17,7 +17,8 @@ movies.map((movie) => {
 }
 
 // Iteration 2: Steven Spielberg. The best? - How many drama movies did STEVEN SPIELBERG direct?
-function howManyMovies(moviesArray) {
+function howManyMovies(moviesArray) 
+{
 // Check if movies array is empty
 if (!movies.length) return 0;
 // should return 0 if none of the movies in the array were directed by Steven Spielberg
@@ -36,7 +37,8 @@ return dramaMovies;
 }
 
 // Iteration 3: All scores average - Get the average of all scores with 2 decimals
-function scoresAverage(moviesArray) {
+function scoresAverage(moviesArray) 
+{
 
   // check if movies arr if empty
   if (!movies.length) return 0;
